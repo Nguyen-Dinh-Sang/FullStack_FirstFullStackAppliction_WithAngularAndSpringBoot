@@ -1,0 +1,12 @@
+- JavaScript != TypeScript:
+	- TypeScript = JavaScript + Strong typing.
+- Installing Angular CLI.
+- Creating and Launching Angular Application.
+	- Would you like to add Angular routing?: if have multiple screens, want to have a screen fill between them.
+	- CSS: SCSS, SASS, LESS, Stylus, which style sheet format would like to use.
+	- ng serve: run.
+- Open:
+	- Readme.md: documentation about the project that we have created.
+	- Contro-B: full screen.
+	
+	
