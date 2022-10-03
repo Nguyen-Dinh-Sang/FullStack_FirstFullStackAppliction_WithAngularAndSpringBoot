@@ -1,10 +1,12 @@
 - JavaScript != TypeScript:
 	- TypeScript = JavaScript + Strong typing.
+
 - Installing Angular CLI.
 - Creating and Launching Angular Application.
 	- Would you like to add Angular routing?: if have multiple screens, want to have a screen fill between them.
 	- CSS: SCSS, SASS, LESS, Stylus, which style sheet format would like to use.
 	- ng serve: run.
+
 - Open:
 	- Readme.md: documentation about the project that we have created.
 	- Contro-B: full screen.
@@ -12,9 +14,26 @@
 	- ng build: create folder to put it web server.
 	- ng test: run unit tests.
 	- ng e2e: stands for ng End-to-end, e2e tests.
+
 - Structure:
 	- tsconfig.json: browser will not understand typescript, only understands javascript, code needs to be converted to javascript.
 	- package.json: all the frameworks.
 	- app: contains all the important code.
-	
+
+- Components:
+	- Menu Component, List Component, Footer Component.
+	- All that is handled by the view logic which is present in that specific componet.
+	- Tupically a component is associated with:
+		- Template: basically the HTML.
+		- Style: basically this .css.
+		- Code: how should really respond to use of actions.
+	- Indicate that component by using a decorator.
+
+- Create a component:
+	- ng generate component name ~ ng g c name.
+	- welcomeComponet is added in the declaration in app.module.ts
+	- welcome.component.spec.ts: default test.
+	- @Component: called a decorator.
+
+- Create login component:
 	
