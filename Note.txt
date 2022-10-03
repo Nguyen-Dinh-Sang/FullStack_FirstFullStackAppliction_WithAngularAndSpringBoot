@@ -12,6 +12,9 @@
 	- ng build: create folder to put it web server.
 	- ng test: run unit tests.
 	- ng e2e: stands for ng End-to-end, e2e tests.
-
+- Structure:
+	- tsconfig.json: browser will not understand typescript, only understands javascript, code needs to be converted to javascript.
+	- package.json: all the frameworks.
+	- app: contains all the important code.
 	
 	
