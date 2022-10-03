@@ -8,5 +8,10 @@
 - Open:
 	- Readme.md: documentation about the project that we have created.
 	- Contro-B: full screen.
+	- ng lint: check code, these files pass the coding standard violation.
+	- ng build: create folder to put it web server.
+	- ng test: run unit tests.
+	- ng e2e: stands for ng End-to-end, e2e tests.
+
 	
 	
