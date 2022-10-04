@@ -36,4 +36,6 @@
 	- @Component: called a decorator.
 
 - Create login component:
-	
+
+- Routes:
+	- Create routing module: ng generate module app-routing --flat --module=app

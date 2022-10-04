@@ -17,15 +17,14 @@ export class LoginComponent implements OnInit {
   }
 
   handleLogin() {
-    console.log(this.username);
-    console.log(this.password);
-
     if (this.username === 'sangnd' && this.password === '123') {
       this.invalidLogin = false;
     } else {
       this.invalidLogin = true;
     }
 
-    console.log(this.invalidLogin);
+    // console.log(this.username);
+    // console.log(this.password);
+    // console.log(this.invalidLogin);
   }
-}
+} 
