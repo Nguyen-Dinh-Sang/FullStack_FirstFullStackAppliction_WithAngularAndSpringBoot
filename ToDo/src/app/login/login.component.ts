@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -11,7 +12,9 @@ export class LoginComponent implements OnInit {
   errorMessage = "Invalid Credentials";
   invalidLogin = false;
 
-  constructor() { }
+  // Router
+  // Angular.giveMeRouter
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
@@ -19,6 +22,9 @@ export class LoginComponent implements OnInit {
   handleLogin() {
     if (this.username === 'sangnd' && this.password === '123') {
       this.invalidLogin = false;
+      
+      // Redirect to Welcome Page
+      this.router.navigate(['welcome', this.username]);
     } else {
       this.invalidLogin = true;
     }
